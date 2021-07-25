@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "reinforcement-learning"
+version = "0.1.0"
+description = ""
+authors = ["chrisaddy <chris.william.addy@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gym = "^0.18.3"
+gym-super-mario-bros = "^7.3.2"
+pytorch = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
